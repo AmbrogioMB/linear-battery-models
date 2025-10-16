@@ -1,1 +1,1 @@
-# linear-battery-models
+# Linear Battery Models
