@@ -15,7 +15,7 @@ The models were developed for the study **“Comparative Analysis of Linear Batt
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python ≥ 3.9  
 - NumPy  
