@@ -1,7 +1,7 @@
 # Linear Battery Models
 
 Python implementation of linear optimization and rule-based models for the operation of photovoltaic (PV) battery systems under uncertainty.  
-The models were developed for the study **“Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems”**.
+The models were developed for the study **``Comparative Analysis of Linear Battery Models for Carbon Emission Optimization in Solar Energy Systems''**.
 
 ---
 
