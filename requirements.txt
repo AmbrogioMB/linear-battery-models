@@ -1,0 +1,4 @@
+numpy>=1.26
+scipy>=1.13   # used by gurobipy's matrix API
+gurobipy>=11
+pandas>=2.0   # only for data/build_dataset.py
