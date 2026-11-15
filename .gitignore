@@ -1,3 +1,15 @@
 __pycache__/
-data/raw/
-results_daily/scen_*.npz
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# downloaded raw data (code/fetch_*.py) and the household loads (65 MB, rebuilt by code/build_loads.py)
+data_raw/
+data/loads.npz
+
+# outputs: everything except the list of closed-loop cases
+results/*
+!results/cases.csv
+jobs/
+logs/
+figures/

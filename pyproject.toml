@@ -1,0 +1,29 @@
+[project]
+name = "linear-battery-jes"
+version = "0.1.0"
+description = "Emission- and cost-aware operation of residential PV-battery systems"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "gurobipy>=12,<14",  # licences of version 13 do not work with gurobipy 14
+    "matplotlib>=3.8",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["code"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+src = ["code"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
